@@ -89,7 +89,7 @@ class brawlstars:
         if profiledata.club is not None:
             embed.add_field(name="Club {}".format(profiledata.club.role),
                             value=profiledata.club.name, inline=True)
-        embed.add_field(name="Brawlers Unlocked", value="{} {}/22".format(self.emoji("default"), profiledata.brawlers_unlocked), inline=True)
+        embed.add_field(name="Brawlers Unlocked", value="{} {}/26".format(self.emoji("default"), profiledata.brawlers_unlocked), inline=True)
         embed.add_field(name="Victories", value="{} {}".format(self.emoji("bountystar"), profiledata.victories), inline=True)
         embed.add_field(name="Solo SD Victories", value="{} {}".format(self.emoji("showdown"), profiledata.solo_showdown_victories), inline=True)
         embed.add_field(name="Duo SD Victories", value="{} {}".format(self.emoji("duoshowdown"), profiledata.duo_showdown_victories), inline=True)
